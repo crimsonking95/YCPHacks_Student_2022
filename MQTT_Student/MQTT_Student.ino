@@ -1,5 +1,6 @@
 #include "EspMQTTClient.h"
 #include "Adafruit_NeoPixel.h"
+#include <stdlib.h>
 
 // Hardware defines
 #define HB_LED_PIN 13
@@ -40,6 +41,7 @@ void onConnectionEstablished()
 {
   client.subscribe("rgb", [] (const String &payload)  {
     // TODO: OUR CODE GOES HERE!
+    // do some strtoul madness
   });
 }
 
