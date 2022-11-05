@@ -11,5 +11,5 @@ DIRECTIONS:
 8. Go to Tools->Boards->Boards Manager
 9. Search esp32 and install esp32 by Espressif Systems
 10. Download the appropriate driver from https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers
-(I used the windows driver, not the windows universal driver)
+(I used the windows driver, not the windows universal driver. This is included in Linux builds these days so no need for Linux folks)
 11. Open the MQTT_Student.ino file in Arduino, for Board Type select "ESP32 Feather" and the appropriate COM port, then make sure it compiles!
